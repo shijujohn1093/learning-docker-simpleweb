@@ -2,6 +2,7 @@
 FROM node:alpine
 
 # Install some depdendencies
+COPY . .
 RUN npm install
 
 # Default command
