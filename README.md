@@ -1,2 +1,2 @@
-"# learning-docker-simpleweb" 
-"# learning-docker-simpleweb" 
+docker build -t cuckoo/simpleweb .
+docker run cuckoo/simpleweb
