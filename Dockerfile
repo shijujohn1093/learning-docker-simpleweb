@@ -2,8 +2,8 @@
 FROM node:alpine
 
 # Install some depdendencies
-WORKDIR /usr/app
-COPY ./package.json .
+WORKDIR /app
+COPY package.json .
 RUN npm install
 COPY . .
 
