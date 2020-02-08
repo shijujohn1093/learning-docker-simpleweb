@@ -2,7 +2,7 @@
 docker build -t cuckoo/simpleweb .
 
 # To run image as container
-docker run -p 9090:8080 cuckoo/simpleweb
+docker run -p 9090:8080 cuckoo/simpleweb .
 
 # To validate all the available images
 docker ps --all
